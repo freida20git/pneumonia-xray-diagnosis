@@ -36,6 +36,12 @@ python flask_app.py
 ```
 The API will be available at `http://127.0.0.1:5000/predict`.
 
+## Model File
+
+The model file `trained_model_20epochs_1.pth` can be downloaded from the following link:
+[Download Model from Google Drive](https://drive.google.com/file/d/1tCPDSut7EN-MtlzI-dtfTIbHvYJYUSbk/view?usp=drive_link)
+
+
 ### 3. Making Predictions
 Send a POST request to the API with an image file. Example using `curl`:
 ```bash
